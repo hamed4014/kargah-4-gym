@@ -1,0 +1,183 @@
+
+.menu_person {
+    position: relative;
+}
+
+.menu_person>ul {
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    top: 52px;
+    left: 0px;
+    direction: ltr;
+    font-family: "B Titr";
+    list-style-position: inside;
+    padding: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.menu_person>ul li  {
+    width: 130px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #ff253a;
+    border: none;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    direction: ltr;
+    transition: 0.4s;
+    cursor: pointer;
+    line-height: 40px;
+    list-style-position: inside;
+}
+
+.menu_person>ul li:hover  {
+    width: 150px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #ff253a;
+    border: none;
+    list-style-type: none;
+    color: white;
+    transition: 0.4s;
+    direction: ltr;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menu_person>ul li:active
+{
+    background-color: #df253a;
+}
+
+.menu_manager {
+    position: relative;
+    width: 20% !important;
+}
+
+.menu_manager div {
+    width: 100% !important;
+}
+
+.menu_manager ul {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 52px;
+    right: 0px;
+    direction: rtl;
+    font-family: "B Titr";
+    list-style-position: inside;
+    padding: 0px;
+    transition: 0.4s;
+}
+
+.menu_manager>ul li {
+    width: 100%;
+    height: 65px;
+    direction: rtl;
+    border-top: solid 2px rgba(180,180,180,1);
+    border-bottom: solid 2px rgba(180,180,180,1);
+    border-left: solid 2px rgba(180,180,180,1);
+    border-radius: 0px;
+    font-family: "B Titr";
+    list-style-position: inside;
+    padding: 0px;
+    transition: 0.4s;
+    color: black;
+    list-style-type: none;
+    background-color: white;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu_manager>ul li:hover {
+    width: 290px;
+    border-top: solid 2px rgba(230,0,0,1);
+    border-bottom: solid 2px rgba(230,0,0,1);
+    border-left: solid 2px rgba(230,0,0,1);
+    transition: 0.4s;
+    color: #ff253a;
+}
+
+.menu_manager>ul li:active {
+    width: 290px;
+    border-top: solid 2px rgba(230,0,0,1);
+    border-bottom: solid 2px rgba(230,0,0,1);
+    border-left: solid 2px rgba(230,0,0,1);
+    transition: 0.4s;
+    color: #ff253a;
+    background-color: rgba(240,0,0,0.2);
+}
+
+#info {
+    width: 82%;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    margin-right: 17%;
+}
+/* #plan > table > tbody > tr:nth-child(2) > td:nth-child(1) */
+
+#info > table {
+    font-family: "B Titr";
+    font-size: 1.2rem;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#info > table > tbody > * > * {
+    /* border: 1px solid #dddddd; */
+    text-align: right;
+    padding: 8px;
+    width: 60px;
+}
+
+.plan {
+    width: 82%;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    display: inline-block;
+    /* border-radius: 7px;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a; */
+    margin-right: 17%;
+}
+/* #plan > table > tbody > tr:nth-child(2) > td:nth-child(1) */
+
+.plan > table {
+    font-family: "B Nazanin";
+    font-size: 1.2rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.plan > table > tbody > * > * {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 60px;
+}
+
+
+#print {
+    width: 82%;
+    margin-top: 65px;
+    margin-right: 17%;
+}
+  
+/* tr:nth-child(even) {
+    background-color: #dddddd;
+} */
+

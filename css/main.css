@@ -1,0 +1,396 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_menu {
+    width: 100%;
+    height: 53px;
+    background-color: white;
+    position: relative;
+    position: fixed;
+    top: 0px;
+    border-bottom: solid rgba(180,180,180,1) 3px;
+    z-index: 70;
+}
+
+.header_menu div {
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+.header_menu div div {
+    height: 53px;
+    width: 90px;
+    background-color: white;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    font-family: "B Titr";
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: solid rgba(180,180,180,1) 3px;
+    color: black !important;
+}
+
+.header_menu div div:hover {
+    height: 53px;
+    width: 120px;
+    background-color: azure;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    font-family: "B Titr";
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: solid #ff253a 3px;
+}
+
+.header_menu div div:active {
+    height: 47px;
+    width: 120px;
+    background-color: rgba(0,0,0,0.1);
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    font-family: "B Titr";
+    cursor: pointer;
+    transition: 0.3s;
+    border-bottom: solid #ff253a 3px;
+}
+
+.footer_menu {
+    width: 100%;
+    background-color: rgba(80,80,80,1);
+    height: 400px;
+    color: azure;
+}
+
+.footer_menu div {
+    float: right;
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 270px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgba(130,130,130,1);
+    text-align: center;
+    font-family: "Cooper Black";
+    font-size: 25pt;
+    direction: ltr;
+}
+
+.footer_menu div i {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.levels {
+    border-top: solid rgba(0,0,0,0.1) 3px;
+    width: 100%;
+    height: 600px;
+}
+
+.levels div {
+    text-align: center;
+    height: 600px;
+    width: 50%;
+}
+
+.levels div div {
+    margin-top: 135px;
+    display: inline-block;
+    line-height: 90px;
+    height: 150px;
+    font-family: "B Jadid";
+    font-size: 50pt;
+}
+
+.levels div a div {
+    width: 150px;
+    height: 60px;
+    margin-top: 80px;
+    border-radius: 7px;
+    background-color: azure;
+    border: solid 3px #ff253a;
+    line-height: 55px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.8);
+    transition: 0.5s;
+    color: #ff253a;
+    font-family: "B Titr";
+    font-size: 20pt;
+}
+
+.levels div a div:hover {
+    width: 260px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: #ff253a;
+    line-height: 60px;
+    color: azure;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.8);
+    transition: 0.5s;
+    margin-top: 80px;
+    border: none 0px #ff253a;
+    cursor: pointer;
+}
+
+.levels div a div:active {
+    width: 260px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: #af253a;
+    line-height: 60px;
+    color: azure;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.8);
+    transition: 0.5s;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.levels img {
+    width: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: 0.4s;
+}
+.levels:hover img {
+    width: 97%;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: 0.4s;
+}
+
+.signin {
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    border-radius: 3px;
+    border: solid 3px #ff253a;
+    box-shadow: 0px 0px 2px 1px rgba(120,120,120,1);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.signin>div {
+    width: 700px;
+    height: 600px;
+    position: relative;
+}
+
+.signin>div>span {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.signin>div>span {
+    position: absolute;
+    display: inline-block;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.signin>div>div {
+    font-family: "B Titr";
+    font-size: 25pt;
+    text-align: center;
+    height: 60px;
+}
+
+.form {
+    text-align: center !important;
+}
+
+.form>div {
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 330px;
+    height: 40px;
+    border: none;
+    float: right;
+    border-radius: 7px;
+}
+
+.form>div>div {
+    float: right;
+    width: 225px;
+    height: 37px;
+    line-height: 37px;
+    border: solid 2px rgba(230,230,230,1);
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-right: none;
+    font-family: "B Titr";
+    font-size: 12pt;
+}
+
+.form div>div:first-child {
+    border-left: solid 2px rgba(230,230,230,1);
+    border-right: solid 2px rgba(230,230,230,1);
+    float: right;
+    width: 100px;
+    height: 37px;
+    border-radius: 0px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: rgba(230,230,230,1);
+}
+
+.form>div>div>input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    transition: 0.5s;
+}
+
+.form>div div input:active{
+    transition: 0.5s;
+}
+
+.input_text {
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 670px !important;
+    height: 120px !important;
+    border: none;
+    float: right;
+    border-radius: 7px;
+}
+
+.input_text div:first-child {
+    border: none !important;
+    float: right;
+    width: 300px !important;
+    height: 37px !important;
+    text-align: right;
+    border-radius: 0px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: rgba(230,230,230,0) !important;
+}
+
+.input_text div {
+    border: solid 2px rgba(230,230,230,1) !important;
+    border-radius: 7px;
+    width: 670px !important;
+    height: 90px !important;
+}
+
+.input_text div textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    resize: none;
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+.btn_ok {
+    width: 200px;
+    height: 40px;
+    transition: 0.5s;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    left: 250px;
+    display: block;
+    border: #ff253a solid 3px;
+    color: #ff253a;
+    font-family: "B Titr";
+}
+
+.btn_ok:hover {
+    transition: 0.5s;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: none;
+    color: white;
+    background-color: #ff253a;
+}
+
+#day {
+    width: 62px;
+    height: 37px;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+    border-top: solid 2px rgba(230,230,230,1);
+    border-bottom: solid 2px rgba(230,230,230,1);
+    float: right;
+    box-shadow: none;
+}
+
+#month {
+    width: 62px;
+    height: 37px;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+    border-top: solid 2px rgba(230,230,230,1);
+    border-bottom: solid 2px rgba(230,230,230,1);
+    float: right;
+    box-shadow: none;
+}
+
+#year {
+    width: 100px;
+    height: 37px;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top: solid 2px rgba(230,230,230,1);
+    border-bottom: solid 2px rgba(230,230,230,1);
+    border-left: solid 2px rgba(230,230,230,1);
+    float: right;
+    box-shadow: none;
+}
+
+.massage {
+    position: fixed;
+    top: 70px;
+    left: 38%;
+    background-color: rgba(65,214,170,0.8);
+    width: 400px;
+    height: 60px;
+    color: black;
+    font-size: 13pt;
+    font-family: "B Titr";
+    line-height: 46px;
+    text-align: right;
+    border-right: solid 5px rgba(65,250,190,0.8);
+    padding: 7px;
+    transition: 0.5s;
+}
+
+.massage_erorr {
+    position: fixed;
+    top: 70px;
+    left: 38%;
+    background-color: rgba(248,215,218,1);
+    width: 400px;
+    height: 60px;
+    color: black;
+    font-size: 13pt;
+    font-family: "B Titr";
+    line-height: 46px;
+    text-align: right;
+    border-right: solid 5px rgba(241,174,181,1);
+    padding: 7px;
+    transition: 0.5s;
+}

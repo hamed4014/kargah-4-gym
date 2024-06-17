@@ -1,0 +1,1341 @@
+
+.menu_person {
+    position: relative;
+}
+
+.menu_person>ul {
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    top: 52px;
+    left: 0px;
+    direction: ltr;
+    font-family: "B Titr";
+    list-style-position: inside;
+    padding: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.menu_person>ul li  {
+    width: 130px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #ff253a;
+    border: none;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    direction: ltr;
+    transition: 0.4s;
+    cursor: pointer;
+    line-height: 40px;
+    list-style-position: inside;
+}
+
+.menu_person>ul li:hover  {
+    width: 150px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #ff253a;
+    border: none;
+    list-style-type: none;
+    color: white;
+    transition: 0.4s;
+    direction: ltr;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menu_person>ul li:active
+{
+    background-color: #df253a;
+}
+
+.menu_manager {
+    position: relative;
+    width: 20% !important;
+    z-index: 1;
+}
+
+.menu_manager div {
+    width: 100% !important;
+}
+
+#menu_manager {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 52px;
+    right: 0px;
+    direction: rtl;
+    font-family: "B Titr";
+    list-style-position: inside;
+    padding: 0px;
+    transition: 0.4s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu_manager {
+    width: 250px;
+}
+
+.li_t {
+    width: 250px;
+    text-align: center;
+    min-height: 65px;
+    direction: rtl;
+    border-top: solid 2px rgba(180,180,180,1);
+    border-bottom: solid 2px rgba(180,180,180,1);
+    border-left: solid 2px rgba(180,180,180,1);
+    border-radius: 0px;
+    font-family: "B Titr";
+    list-style-position: inside;
+    padding: 0px;
+    transition: 0.4s;
+    color: black;
+    list-style-type: none;
+    background-color: white;
+    line-height: 65px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.li_t:hover {
+    width: 250px;
+    border-top: solid 2px rgba(230,0,0,1);
+    border-bottom: solid 2px rgba(230,0,0,1);
+    border-left: solid 2px rgba(230,0,0,1);
+    transition: 0.4s;
+    color: #ff253a ;
+}
+
+#menu_manager > a > li {
+    width: 250px;
+    text-align: center;
+    min-height: 65px;
+    direction: rtl;
+    border-top: solid 2px rgba(180,180,180,1);
+    border-bottom: solid 2px rgba(180,180,180,1);
+    border-left: solid 2px rgba(180,180,180,1);
+    border-radius: 0px;
+    font-family: "B Titr";
+    list-style-position: inside;
+    padding: 0px;
+    transition: 0.4s;
+    color: black;
+    list-style-type: none;
+    background-color: white;
+    line-height: 65px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menu_manager > a > li:hover {
+    width: 250px;
+    border-top: solid 2px rgba(230,0,0,1);
+    border-bottom: solid 2px rgba(230,0,0,1);
+    border-left: solid 2px rgba(230,0,0,1);
+    transition: 0.4s;
+    color: #ff253a;
+}
+
+
+#menu_manager>a> li:active {
+    border-top: solid 2px rgba(230,0,0,1);
+    border-bottom: solid 2px rgba(230,0,0,1);
+    border-left: solid 2px rgba(230,0,0,1);
+    transition: 0.4s;
+    color: #ff253a;
+    background-color: rgba(240,0,0,0.2);
+}
+
+li:hover .menu_2 {
+    visibility: visible;
+    opacity: 1;
+    top: 0px !important;
+    transition: 0.5s;
+
+}
+
+.menu_2 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width: 150px !important;
+    padding: 0px !important;
+    top: 30px !important;
+    left: -150px !important;
+    list-style-position: inside !important;
+    list-style-type: none !important;
+    color: black ;
+    background-color: rgba(255,255,255,1) !important;
+    transition: 0.4s !important;
+    line-height: 0px;
+    z-index: 2;
+}
+
+.menu_2>a {
+    display: inline-block;
+    width: 100% !important;
+}
+
+.menu_2>a> li {
+    width: 100% !important;
+    height: 27px !important;
+    border: solid 2px rgba(230,0,0,1) !important;
+    display: inline-block !important;
+    float: right !important;
+    text-align: center !important;
+    line-height: 25px !important;
+    background-color: white !important;
+    z-index: 2;
+}
+
+.menu_2>a> li:hover {
+    background-color: rgba(230,0,0,1) !important;
+    color: white !important;
+    transition: 0.4s !important;
+}
+
+#dashboard {
+    width: 82%;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    margin-right: 17%;
+}
+
+#dashboard>div {
+    width: 400px;
+    height: 200px;
+    border-radius: 3px;
+    border: solid 2px rgba(180,180,180,1);
+    box-shadow: 0px 0px 3px 1px rgba(180,180,180,1);
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    transition: 0.4s;
+}
+
+#dashboard>div:hover {
+    box-shadow: 0px 0px 5px 2px rgba(0,100,250,1);
+    transition: 0.4s;
+}
+
+#dashboard>div>span {
+    width: 100%;
+    font-family: "B Titr";
+    font-size: 25pt;
+    text-align: center;
+    color: rgba(240,0,0,0.7);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#dashboard>div>span:first-child {
+    font-size: 30pt;
+}
+
+#main_students {
+    width: 82%;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    margin-right: 17%;
+}
+
+#main_students>div {
+    width: 23%;
+    height: 340px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    border-radius: 3px;
+    border: solid 2px rgba(180,180,180,1);
+    box-shadow: 0px 0px 3px 1px rgba(180,180,180,1);
+    float: right;
+    transition: 0.3s;
+}
+
+#main_students>div:hover {
+    box-shadow: 0px 0px 5px 2px rgba(0,100,250,1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#main_students>div>div {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    border-bottom: solid 2px rgba(180,180,180,1);
+    font-size: 50pt;
+}
+
+#main_students>div>span {
+    margin-top: 5px;
+    font-family: "B Titr";
+    font-size: 13pt;
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#main_diets {
+    width: 82%;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    margin-right: 17%;
+    z-index: 1;
+}
+
+#main_student_info {
+    width: 82%;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    margin-right: 17%;
+    text-align: center;
+}
+
+#main_student_info>section {
+    float: right;
+    font-size: 15pt;
+    width: 20%;
+    border: none;
+    text-align: center;
+    line-height: 50px;
+    height: 250px;
+    padding: 10px;
+    direction: ltr;
+}
+
+#main_student_info>section>i {
+    font-size: 100pt;
+    margin-top: 40px;
+}
+
+#main_student_info>div {
+    font-family: "B Titr";
+    font-size: 15pt;
+    color: black;
+    padding: 30px;
+    padding-top: 15px;
+    width: 26%;
+    height: 250px;
+    border: none;
+    float: right;
+    line-height: 80px;
+    text-align: right;
+}
+
+#main_student_info #text {
+    width: 100%;
+    line-height: 0px;
+    padding: 0px;
+    padding-right: 27px;
+    margin-top: 70px;
+}
+
+#main_student_info #text>div {
+    width: 33%;
+    font-family: "B Titr";
+    float: right;
+    text-align: right;
+}
+
+#main_student_info #text>div>section {
+    width: 96%;
+    height: 200px;
+    font-family: "B Titr";
+    font-size: 12pt;
+    border: solid 2px ;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    float: right;
+    margin-right: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    overflow-y: scroll;
+    text-align: right;
+    padding: 10px;
+    line-height: 20px;
+}
+
+#main_student_info #text>div>section::-webkit-scrollbar {
+    background-color: rgba(240,0,0,0.2);
+    width: 7px;
+}
+
+#main_student_info> #text>div>section::-webkit-scrollbar-thumb {
+    background-color: #ff253a;
+    border-radius: 2px;
+}
+
+#main_student_info> #text>div>section::-webkit-scrollbar-thumb:hover {
+    background-color: #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    border-radius: 2px;
+}
+
+#main_student_info>span {
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "B Titr";
+    font-size: 15pt;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#main_student_info>span>div {
+    width: 98%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13pt;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 2px rgba(180,180,180,1);
+    margin-bottom: 10px;
+}
+
+#main_student_info>span>table {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,1);
+}
+
+#main_student_info>span>table tr {
+    width: 100%;
+    text-align: center;
+    border: solid 2px rgba(180,180,180,1);
+    transition: 0.4s;
+    min-height: 70px !important;
+}
+
+#main_student_info>span>table tr:hover {
+    box-shadow: 0px 0px 5px 1px rgba(35,64,255,1);
+    transition: 0.4s;
+}
+
+#main_student_info>span>table tr>td:first-child {
+    width: 16%;
+    height: 100%;
+    border: solid 2px rgba(180,180,180,1);
+    text-align: center;
+}
+
+#main_student_info>span>table tr>td:nth-child(2n) {
+    width: 74%;
+    height: 100%;
+    border: solid 2px rgba(180,180,180,1);
+    text-align: center;
+}
+
+#main_student_info>span>table tr>td:last-child {
+    width: 10%;
+    height: 100%;
+    border: solid 2px rgba(180,180,180,1);
+    text-align: center;
+}
+
+#btn_new_food_plan {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+}
+
+#btn_new_food_plan:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_new_food_plan:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_new_day {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+}
+
+#btn_new_day:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_new_day:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_users_list_show {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    margin-right: 5%;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+    float: right;
+}
+
+#btn_users_list_show:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_users_list_show:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_new_medical {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 55%;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+    font-family: "B Titr";
+}
+
+#btn_new_medical:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_new_medical:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_new_user {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 70%;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+    font-family: "B Titr";
+}
+
+#btn_new_user:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_new_user:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_add_image {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 70%;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+    font-family: "B Titr";
+}
+
+#btn_add_image:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_add_image:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_change_user {
+    background-color: rgba(19,179,211,0.8);;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 70%;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+    font-family: "B Titr";
+}
+
+#btn_change_user:hover {
+    background-color: rgba(19,179,211,0.8);;
+    transition: 0.3s;
+}
+
+#btn_change_user:active {
+    background-color: rgba(19,179,211,0.8);;
+    transition: 0.3s;
+}
+
+#btn_images {
+    background-color: rgba(19,179,211,0.8);;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 70%;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+    font-family: "B Titr";
+}
+
+#btn_images:hover {
+    background-color: rgba(19,179,211,0.8);;
+    transition: 0.3s;
+}
+
+#btn_images:active {
+    background-color: rgba(19,179,211,0.8);;
+    transition: 0.3s;
+}
+
+#main_diets {
+    width: 82%;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    margin-right: 17%;
+    font-family: "B Titr";
+    font-size: 15pt;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#main_diets table {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,1);
+}
+
+#main_diets table tr {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border: solid 2px rgba(180,180,180,1);
+    transition: 0.4s;
+}
+
+#main_diets table tr:hover {
+    box-shadow: 0px 0px 5px 1px rgba(35,64,255,1);
+    transition: 0.4s;
+}
+
+#main_diets table tr td:first-child {
+    width: 10%;
+    height: 100%;
+    border: solid 2px rgba(180,180,180,1);
+    text-align: center;
+}
+
+#main_diets table tr td:nth-child(2n) {
+    width: 70%;
+    height: 100%;
+    border: solid 2px rgba(180,180,180,1);
+    text-align: center;
+}
+
+#main_diets table tr td:last-child {
+    width: 20%;
+    height: 100%;
+    border: solid 2px rgba(180,180,180,1);
+    text-align: center;
+}
+
+#main_diets table tr td button {
+    width: 50px;
+    height: 30px;
+    font-size: 10pt;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-left: auto;
+    line-height: 20px;
+    float: right;
+}
+
+.delete {
+    background-color: #ff656a;
+    margin-left: 5px;
+    margin-right: 8px;
+    transition: 0.4s;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+    float: right;
+    font-family: "B Titr";
+    border-radius: 4px;
+    width: 40px;
+    height: 30px;
+    font-size: 10pt;
+    border: none;
+}
+
+.delete:hover
+{
+    background-color: #df656a;
+    transition: 0.4s;
+}
+
+.delete:active
+{
+    background-color: #bf656a;
+    transition: 0.4s;
+}
+
+.add {
+    background-color: rgba(50,240,70,0.8);
+    margin-left: 0px;
+    margin-right: 3%;
+    transition: 0.4s;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+    float: right;
+    font-family: "B Titr";
+    border-radius: 4px;
+    width: 40px!important;
+    height: 25px;
+    font-size: 7pt!important;
+    border: none;
+}
+
+.add:hover
+{
+    background-color: rgba(30,240,50,0.8);
+    transition: 0.4s;
+}
+
+.add:active
+{
+    background-color: rgba(10,240,30,0.8);
+    transition: 0.4s;
+}
+
+.change {
+    background-color: rgba(19,179,211,0.8);
+    margin-left: 0px;
+    margin-right: 3%;
+    transition: 0.4s;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+    float: right;
+    font-family: "B Titr";
+    border-radius: 2px;
+    width: 40px!important;
+    height: 30px;
+    font-size: 9pt!important;
+    border: none;
+}
+
+.change:hover
+{
+    background-color: rgba(10,120,211,0.8);
+    transition: 0.4s;
+}
+
+.change:active
+{
+    background-color: rgba(0,100,211,0.8);
+    transition: 0.4s;
+}
+
+#main_diets table tr td .change {
+    background-color: rgba(19,179,211,0.8);
+    transition: 0.4s;
+}
+
+#main_diets table tr td .change:hover {
+    background-color: rgba(10,160,220,0.8);
+    transition: 0.4s;
+}
+
+#main_diets table tr td .change:active {
+    background-color: rgba(5,150,235,0.8);
+    transition: 0.4s;
+}
+
+.add {
+    background-color: rgba(50,240,70,0.8);
+    transition: 0.4s;
+    width: 50px;
+    height: 30px;
+    font-size: 8pt;
+    border: none;
+    border-radius: 3px;
+    margin-right: 3%;
+    margin-left: auto;
+    line-height: 20px;
+    float: right;
+}
+
+.add:hover {
+    background-color: rgba(30,220,45,0.8);
+    transition: 0.4s;
+}
+
+.add:active {
+    background-color: rgba(30,190,45,0.8);
+    transition: 0.4s;
+}
+
+#btn_add_student {
+    background-color: rgba(50,240,70,0.8);
+    transition: 0.4s;
+    width: 50px;
+    height: 30px;
+    font-size: 8pt;
+    border: none;
+    border-radius: 3px;
+    line-height: 20px;
+    margin-left: auto;
+
+}
+
+#btn_add_student:hover {
+    background-color: rgba(30,220,45,0.8);
+    transition: 0.4s;
+}
+
+#btn_add_student:active {
+    background-color: rgba(30,190,45,0.8);
+    transition: 0.4s;
+}
+
+#main_diets table tr td>form input {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+#btn_new_food {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+}
+
+#btn_new_food:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_new_food:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+.change_window {
+    width: 100%;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(255,255,255,0);
+    transition: 0.5s;
+    text-align: center;
+    top: 100px;
+    right: 0px;
+    z-index: 2;
+    font-family: "B Titr";
+}
+
+.change_window> div {
+    width: 50%;
+    height: 250px;
+    background-color: white;
+    border-radius: 3px;
+    border: solid 3px #ff253a;
+    box-shadow: 0px 0px 2px 1px rgba(120,120,120,1);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    position: relative;
+}
+
+.change_window>div span {
+    position: absolute;
+    display: inline-block;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.change_window>div>div {
+    height: 100%;
+}
+
+.form {
+    text-align: center;
+}
+
+.form_new input {
+    border-radius: 4px;
+    border: solid 2px rgba(120,120,120,1);
+    width: 400px;
+    height: 35px;
+    margin-top: 50px;
+}
+
+.form_new input:last-child {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 55%;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+}
+
+.form_new input:last-child:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+.form_new input:last-child:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_new_medical {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+}
+
+#btn_new_medical:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_new_medical:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_new_sport {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+}
+
+#btn_new_sport:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_new_sport:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+#btn_new_sport_plan {
+    background-color: #ff253a;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 10pt;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: none;
+    line-height: 30px;
+}
+
+#btn_new_sport_plan:hover {
+    background-color: #af253a;
+    transition: 0.3s;
+}
+
+#btn_new_sport_plan:active {
+    background-color: #7a253a;
+    transition: 0.3s;
+}
+
+.table2 {
+    border: none;
+    width: 100%;
+}
+
+.table2 tr {
+    height: 25px;
+    border: none;
+    border-top: solid 2px rgba(180,180,180,1);
+    border-bottom: solid 2px rgba(180,180,180,1);
+}
+
+.table2 tr td {
+    width: 100%;
+    border: none;
+    border-top: solid 2px rgba(180,180,180,1);
+    border-bottom: solid 2px rgba(180,180,180,1);
+}
+
+.remember {
+    width: 240px;
+    height: 378px;
+    position: fixed;
+    right: 5px;
+    top: 330px;
+    border-radius: 7px;
+    border: solid 1px #ff253a;
+    box-shadow: 0px 0px 3px 1px #ff253a;
+    text-align: right;
+    font-family: "B Titr";
+    padding: 10px;
+    z-index: 80;
+}
+
+.remember form textarea {
+    width: 100%;
+    height: 300px;
+    border: solid 2px rgba(180,180,180,1);
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 20px;
+    resize: none;
+}
+
+#save_remember {
+    width: 100%;
+    height: 25px;
+    margin-top: 7px;
+    background-color: rgba(10,160,220,0.8);
+    color: white;
+    border: none;
+    font-size: 10pt;
+}
+
+.print {
+    width: 200px;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 13px;
+    background-color: rgba(10,160,220,0.8);
+    color: white;
+    border: none;
+    font-size: 10pt;
+    transition: 0.4s;
+}
+
+.print:hover {
+    width: 200px;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 13px;
+    background-color: rgba(10,120,220,0.8);
+    color: white;
+    border: none;
+    font-size: 10pt;
+    transition: 0.4s;
+}
+
+.print:active {
+    width: 200px;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 13px;
+    background-color: rgba(10,90,150,0.8);
+    color: white;
+    border: none;
+    font-size: 10pt;
+    transition: 0.4s;
+}
+
+#save_text_food_plan {
+    width: 100px;
+    height: 25px;
+    margin-top: 7px;
+    background-color: rgba(10,160,220,0.8);
+    color: white;
+    border: none;
+    font-size: 10pt;
+}
+
+.search {
+    margin: 0px!important;
+    margin-top: 20px !important;
+    margin-right: 100px !important;
+    margin-left: auto;
+    width: 300px!important;
+    height: 40px!important;
+    border: none !important;
+    box-shadow: none !important;
+    font-family: "B Titr";
+    text-align: right;
+    float: right;
+}
+
+.search input {
+    width: 80%;
+    display: inline-block;
+}
+
+.search button {
+    width: 18%;
+    background-color: #ff253a;
+}
+
+.search button:hover {
+    width: 18%;
+    background-color: #bf253a;
+}
+
+.search button:active {
+    width: 18%;
+    background-color: #bf253a;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.image_user_list {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: -13px;
+}
+
+.image_info_user {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.image_user {
+    width: 24%;
+    height: 400px;
+    border-radius: 0px;
+    margin-right: 5px;
+}
+
+.students_list {
+    width: 100% !important;
+    border-radius: 7px  !important;
+    border: solid 2px #ff253a  !important;
+    box-shadow: 0px 0px 3px 1px #ff253a  !important;
+    padding: 5px  !important;
+    margin-top: 7px  !important;
+    display: inline-block  !important;
+}
+
+.students_list div {
+    height: 30px;
+    background-color: rgba(220,220,220,1);
+    font-family: "B Titr";
+    font-size: 10pt;
+    padding: 5px;
+    color: rgba(100,100,100,1);
+    float: right;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 4px;
+}
+
+.students_list button {
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.plans_list {
+    height: 30px;
+    background-color: rgba(220,220,220,1);
+    font-family: "B Titr";
+    font-size: 10pt;
+    padding: 5px;
+    color: rgba(100,100,100,1);
+    float: right;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 4px;
+}
+
+.plans_list button {
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.form_plans_list {
+    text-align: right;
+    display: inline-block;
+}
+
+.form_plans_list button {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    margin: 4px;
+    display: inline-block;
+    float: right;
+}
+
+.form_plans_list input {
+    width: 80px;
+    display: inline-block;
+    float: right;
+    margin: 4px;
+    padding: 5px;
+}
+
+.form_plans_list input:disabled {
+    border: none;
+}
+
+

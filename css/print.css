@@ -1,0 +1,212 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: rgba(0,0,0,0);
+    font-family: "mitra";
+    color: black;
+    font: 12pt bold;
+    width: 100%;
+}
+
+.header div {
+    float: right;
+    text-align: center;
+    display: inline-block;
+    background-color: #0dcaf0;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 140px;
+    color: black;
+}
+
+.header div div {
+    float: right;
+    display: inline-block;
+    padding: 3px;
+}
+
+.title {
+    width: 100%;
+    height: 55px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    background-color: rgba(255,255,255,0);
+    border-top: solid 2px #0dcaf0;
+    border-bottom: solid 2px #0dcaf0;
+    font-family: "mitra";
+    margin-top: 35px;
+    font: 20pt bolder;
+    text-align: center;
+}
+
+.title div {
+    width: 99%;
+    height: 45px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    background-color: #0dcaf0;
+    color: black;
+    text-align: center;
+    line-height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.title_sport {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(200,50,50,0.8);
+    color: rgba(240,240,240,1);
+    font-family: "mitra";
+    font: 15pt bolder;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.title2 {
+    width: 100%;
+    height: 55px;
+    background-color: rgba(255,255,255,0);
+    border-top: solid 2px rgba(0,208,130,1);
+    border-bottom: solid 2px rgba(0,208,130,1);
+    font-family: "mitra";
+    margin-top: 35px;
+    font: 20pt bolder;
+    text-align: center;
+}
+
+.title2 div {
+    width: 99%;
+    height: 45px;
+    background-color: rgba(0,208,130,1);
+    color: rgba(240,240,240,1);
+    text-align: center;
+    line-height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.table_food {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    font-family: "mitra";
+    border-radius: 0px;
+}
+
+.table_food tr {
+    width: 100%;
+    min-height: 25px;
+    line-height: 25px;
+}
+
+.table_food tr td:nth-child(1) {
+    text-align: center;
+    font: 15pt bold;
+}
+
+.table_food tr td:nth-child(2) {
+    border-radius: 0px;
+    text-align: right;
+    padding-right: 5px;
+    font: 15pt bold;
+}
+
+.table2 tr:nth-child(n) {
+    width: 100%;
+    min-height: 25px;
+    vertical-align: center;
+    border: none;
+    background-color: rgba(252,130,0,0.3);
+}
+
+.table_food tr {
+    background-color: rgba(255,186,112,1);
+}
+
+.table_food tr:nth-child(2n) {
+    background-color: rgba(255,218,178,1);
+}
+
+.table_food tr .table2 {
+    background-color: rgba(252,130,0,0);
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+
+
+
+
+.text {
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    border: solid 2px rgba(243,60,60,1);
+    margin-top: 40px;
+    padding: 5px;
+    background-color: rgba(230,230,255,0.7);
+    font-family: mitra;
+    font: 10pt bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #0dcaf0;
+    font: 12pt bold;
+    color: black;
+    font-family: mitra;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.footer_div {
+    float: right;
+    display: inline-block;
+    border: 2px solid rgba(120,120,120,0.8);
+    border-radius: 7px;
+    width: 22.5%;
+    height: 60px;
+    vertical-align: center;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 13pt;
+    padding: 3px;
+    direction: ltr;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 35px;
+}
+
+
+
+
+
+
+
+
+
+
